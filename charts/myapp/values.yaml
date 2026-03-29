@@ -21,7 +21,7 @@ redis:
   storage: 1Gi
 
 app:
-  image: hifrodo/app:v6
+  image: hifrodo/app:v7
   replicas: 3
   secret:
     mysqlUser: "frodo"
